@@ -3,7 +3,7 @@ package com;
 public class Room {
 
   private String no;
-  private int isBooked; // 0: Î´Èë×¡ 1: ÒÑÈë×¡
+  private int isBooked; // 0: æœªå…¥ä½ 1: å·²å…¥ä½
 
   public Room() {
     super();
@@ -37,7 +37,7 @@ public class Room {
 
   @Override
   public String toString() {
-    return this.no + "," + (this.isBooked == 1 ? "ÓĞÈË" : "¿Õ·¿");
+    return this.no + "," + (this.isBooked == 1 ? "æœ‰äºº" : "ç©ºæˆ¿");
   }
 
 }
