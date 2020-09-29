@@ -4,10 +4,10 @@ import java.awt.Frame;
 // GUI
 public class Demo01 {
   public static void main(String[] args) {
-    Frame f = new Frame("´°¿Ú±êÌâ");
+    Frame f = new Frame("çª—å£æ ‡é¢˜");
     f.setLocation(20, 20);
     f.setSize(800, 600);
     f.setVisible(true);
-    System.exit(0); // ÍË³öÏµÍ³
+    System.exit(0); // é€€å‡ºç³»ç»Ÿ
   }
 }
